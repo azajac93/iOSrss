@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+{
+    NSXMLParser *parser;
+    NSMutableArray *feeds;
+    NSMutableDictionary *item;
+    NSMutableString *title;
+    NSString *element;
+    
+}
+
 
 
 @end
