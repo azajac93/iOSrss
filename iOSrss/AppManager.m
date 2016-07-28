@@ -10,7 +10,9 @@
 #import "AFNetworking.h"
 #import "XMLReader.h"
 #import "JSONModel.h"
-#import <Foundation/Foundation.h>
+#import "XMLModel.h"
+#import "JSONModelLib.h"
+
 
 //#import "JSONModel.m"
 
@@ -41,16 +43,25 @@
         //NSLog(@"%@", jsonString);
         
         NSDictionary *deserializedDictionary=[[NSDictionary alloc]init];
-        
         deserializedDictionary = [self JSONdeserialization:jsonData];
-        NSLog(@"Deserialized JSON Dictionary = %@" , deserializedDictionary);
+        NSError *__autoreleasing *errorInitBreakNews=nil;
 
+
+        XMLModel * xmlModel=[[XMLModel alloc] initWithDictionary:deserializedDictionary error:errorInitBreakNews];
+        
+        //  if(errorInitBreakNews)
+            //NSLog(@"%@",errorInitBreakNews.description);
+        NSLog(@"adasd");
+   
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
         failure(error);
     }];
 }
+
+
+
 
 - (NSDictionary *) JSONdeserialization: (NSData *) jsonData
 {
@@ -66,7 +77,6 @@ if (jsonObject != nil &&
     NSLog(@"Sukces desarilazcji..." );
     if ([jsonObject isKindOfClass:[NSDictionary class ]]){
         NSDictionary *deserializedDictionary = (NSDictionary *)jsonObject ;
-        NSLog(@"Deserialized JSON Dictionary = %@" , deserializedDictionary);
         return deserializedDictionary;
     }
 } else
@@ -75,5 +85,7 @@ if (jsonObject != nil &&
     NSDictionary *emptyDictionary=nil;
     return emptyDictionary;
 }
+
+
 
 @end

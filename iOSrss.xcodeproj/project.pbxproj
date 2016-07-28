@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		3803DBED1D44C03F0067106B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DBEC1D44C03F0067106B /* main.m */; };
 		3803DBF01D44C03F0067106B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DBEF1D44C03F0067106B /* AppDelegate.m */; };
-		3803DBF31D44C03F0067106B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DBF21D44C03F0067106B /* FirstViewController.m */; };
 		3803DBF61D44C03F0067106B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DBF51D44C03F0067106B /* SecondViewController.m */; };
 		3803DBF91D44C03F0067106B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3803DBF71D44C03F0067106B /* Main.storyboard */; };
 		3803DBFB1D44C03F0067106B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3803DBFA1D44C03F0067106B /* Assets.xcassets */; };
 		3803DBFE1D44C03F0067106B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3803DBFC1D44C03F0067106B /* LaunchScreen.storyboard */; };
 		3803DC091D44C03F0067106B /* iOSrssTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DC081D44C03F0067106B /* iOSrssTests.m */; };
 		3803DC141D44C03F0067106B /* iOSrssUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DC131D44C03F0067106B /* iOSrssUITests.m */; };
-		3853EDCA1D44C48D00365382 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DBF21D44C03F0067106B /* FirstViewController.m */; };
 		3856EF681D4737F700CC490A /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856EF671D4737F700CC490A /* FirstTableViewController.m */; };
 		3856EF6B1D473E1400CC490A /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856EF6A1D473E1400CC490A /* AppManager.m */; };
-		38F2C7AB1D487FA90095B3B3 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7AA1D487FA90095B3B3 /* ProductModel.m */; };
+		38F2C7AE1D488C870095B3B3 /* XMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7AD1D488C870095B3B3 /* XMLModel.m */; };
+		38F2C7B21D48CEDD0095B3B3 /* RSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */; };
+		38F2C7B51D48CEFF0095B3B3 /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */; };
 		CC20D8CB2098733A6B7BFAA1 /* libPods-iOSrss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAF13B8B21EBEDC0777D750 /* libPods-iOSrss.a */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +47,6 @@
 		3803DBEC1D44C03F0067106B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3803DBEE1D44C03F0067106B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3803DBEF1D44C03F0067106B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3803DBF11D44C03F0067106B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3803DBF21D44C03F0067106B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		3803DBF41D44C03F0067106B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3803DBF51D44C03F0067106B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3803DBF81D44C03F0067106B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,13 +59,16 @@
 		3803DC0F1D44C03F0067106B /* iOSrssUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSrssUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3803DC131D44C03F0067106B /* iOSrssUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSrssUITests.m; sourceTree = "<group>"; };
 		3803DC151D44C03F0067106B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3853EDCB1D45F8B800365382 /* test.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 		3856EF661D4737F700CC490A /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		3856EF671D4737F700CC490A /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		3856EF691D473E1400CC490A /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
 		3856EF6A1D473E1400CC490A /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
-		38F2C7A91D487FA90095B3B3 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
-		38F2C7AA1D487FA90095B3B3 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		38F2C7AC1D488C870095B3B3 /* XMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLModel.h; sourceTree = "<group>"; };
+		38F2C7AD1D488C870095B3B3 /* XMLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLModel.m; sourceTree = "<group>"; };
+		38F2C7B01D48CEDD0095B3B3 /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
+		38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
+		38F2C7B31D48CEFF0095B3B3 /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
+		38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
 		7EAF13B8B21EBEDC0777D750 /* libPods-iOSrss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSrss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,20 +123,22 @@
 		3803DBEA1D44C03F0067106B /* iOSrss */ = {
 			isa = PBXGroup;
 			children = (
-				3853EDCB1D45F8B800365382 /* test.xml */,
+				38F2C7AF1D48CE880095B3B3 /* Models */,
 				3803DBEE1D44C03F0067106B /* AppDelegate.h */,
 				3803DBEF1D44C03F0067106B /* AppDelegate.m */,
-				3803DBF11D44C03F0067106B /* FirstViewController.h */,
-				3803DBF21D44C03F0067106B /* FirstViewController.m */,
 				3803DBF41D44C03F0067106B /* SecondViewController.h */,
+				38F2C7AD1D488C870095B3B3 /* XMLModel.m */,
+				38F2C7AC1D488C870095B3B3 /* XMLModel.h */,
+				38F2C7B01D48CEDD0095B3B3 /* RSSModel.h */,
+				38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */,
+				38F2C7B31D48CEFF0095B3B3 /* ChannelModel.h */,
+				38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */,
 				3803DBF51D44C03F0067106B /* SecondViewController.m */,
 				3803DBF71D44C03F0067106B /* Main.storyboard */,
 				3856EF661D4737F700CC490A /* FirstTableViewController.h */,
 				3856EF671D4737F700CC490A /* FirstTableViewController.m */,
 				3856EF691D473E1400CC490A /* AppManager.h */,
 				3856EF6A1D473E1400CC490A /* AppManager.m */,
-				38F2C7A91D487FA90095B3B3 /* ProductModel.h */,
-				38F2C7AA1D487FA90095B3B3 /* ProductModel.m */,
 				3803DBFA1D44C03F0067106B /* Assets.xcassets */,
 				3803DBFC1D44C03F0067106B /* LaunchScreen.storyboard */,
 				3803DBFF1D44C03F0067106B /* Info.plist */,
@@ -168,6 +171,13 @@
 				3803DC151D44C03F0067106B /* Info.plist */,
 			);
 			path = iOSrssUITests;
+			sourceTree = "<group>";
+		};
+		38F2C7AF1D48CE880095B3B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		886139725E2547A95C1DF2D5 /* Pods */ = {
@@ -371,13 +381,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2C7B21D48CEDD0095B3B3 /* RSSModel.m in Sources */,
 				3803DBF61D44C03F0067106B /* SecondViewController.m in Sources */,
 				3803DBF01D44C03F0067106B /* AppDelegate.m in Sources */,
+				38F2C7B51D48CEFF0095B3B3 /* ChannelModel.m in Sources */,
 				3856EF681D4737F700CC490A /* FirstTableViewController.m in Sources */,
-				3803DBF31D44C03F0067106B /* FirstViewController.m in Sources */,
 				3803DBED1D44C03F0067106B /* main.m in Sources */,
+				38F2C7AE1D488C870095B3B3 /* XMLModel.m in Sources */,
 				3856EF6B1D473E1400CC490A /* AppManager.m in Sources */,
-				38F2C7AB1D487FA90095B3B3 /* ProductModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +396,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3853EDCA1D44C48D00365382 /* FirstViewController.m in Sources */,
 				3803DC091D44C03F0067106B /* iOSrssTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
