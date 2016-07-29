@@ -7,6 +7,7 @@
 //
 
 #import "RSSModel.h"
+#import "ChannelModel.h"
 
 @implementation RSSModel
 

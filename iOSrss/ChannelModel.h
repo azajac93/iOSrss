@@ -8,15 +8,15 @@
 
 #import <JSONModel/JSONModel.h>
 #import "RSSModel.h"
+#import "XMLMod.h"
+@class ItemModel;
 
 @interface ChannelModel : JSONModel
 
-@property (nonatomic, assign) NSString* link;
-@property (nonatomic, assign) NSString* description;
-@property (nonatomic, assign) NSString* enclosure;
-@property (nonatomic, assign) NSString* guid;
-@property (nonatomic, assign) NSString* pubDate;
-@property (nonatomic, assign) NSString* source;
-@property (nonatomic, assign) NSString* title;
+//@property (nonatomic, assign) NSString<Optional>* link;
+//@property (nonatomic, readwrite) NSString<Optional>* description;
+//@property (nonatomic, assign) NSString<Optional>* docs;
+@property (strong, nonatomic) NSArray<ItemModel *> *item;
+
 
 @end

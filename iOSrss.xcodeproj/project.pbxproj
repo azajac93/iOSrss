@@ -17,9 +17,17 @@
 		3803DC141D44C03F0067106B /* iOSrssUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803DC131D44C03F0067106B /* iOSrssUITests.m */; };
 		3856EF681D4737F700CC490A /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856EF671D4737F700CC490A /* FirstTableViewController.m */; };
 		3856EF6B1D473E1400CC490A /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856EF6A1D473E1400CC490A /* AppManager.m */; };
-		38F2C7AE1D488C870095B3B3 /* XMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7AD1D488C870095B3B3 /* XMLModel.m */; };
 		38F2C7B21D48CEDD0095B3B3 /* RSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */; };
 		38F2C7B51D48CEFF0095B3B3 /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */; };
+		38F2C7B81D49CDAF0095B3B3 /* XMLMod.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7B71D49CDAF0095B3B3 /* XMLMod.m */; };
+		38F2C7BB1D49E6600095B3B3 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7BA1D49E6600095B3B3 /* ItemModel.m */; };
+		38F2C7BE1D4A3AC90095B3B3 /* DescriptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7BD1D4A3AC90095B3B3 /* DescriptionModel.m */; };
+		38F2C7C11D4A3BFA0095B3B3 /* EnclosureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7C01D4A3BFA0095B3B3 /* EnclosureModel.m */; };
+		38F2C7C41D4B24BE0095B3B3 /* GuidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7C31D4B24BE0095B3B3 /* GuidModel.m */; };
+		38F2C7C71D4B26290095B3B3 /* LinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7C61D4B26290095B3B3 /* LinkModel.m */; };
+		38F2C7CA1D4B265C0095B3B3 /* PubDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7C91D4B265C0095B3B3 /* PubDateModel.m */; };
+		38F2C7CD1D4B26A70095B3B3 /* SourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7CC1D4B26A70095B3B3 /* SourceModel.m */; };
+		38F2C7D01D4B26EF0095B3B3 /* TitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2C7CF1D4B26EF0095B3B3 /* TitleModel.m */; };
 		CC20D8CB2098733A6B7BFAA1 /* libPods-iOSrss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAF13B8B21EBEDC0777D750 /* libPods-iOSrss.a */; };
 /* End PBXBuildFile section */
 
@@ -63,12 +71,28 @@
 		3856EF671D4737F700CC490A /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		3856EF691D473E1400CC490A /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
 		3856EF6A1D473E1400CC490A /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
-		38F2C7AC1D488C870095B3B3 /* XMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLModel.h; sourceTree = "<group>"; };
-		38F2C7AD1D488C870095B3B3 /* XMLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLModel.m; sourceTree = "<group>"; };
 		38F2C7B01D48CEDD0095B3B3 /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
 		38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
 		38F2C7B31D48CEFF0095B3B3 /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
 		38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
+		38F2C7B61D49CDAF0095B3B3 /* XMLMod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLMod.h; sourceTree = "<group>"; };
+		38F2C7B71D49CDAF0095B3B3 /* XMLMod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLMod.m; sourceTree = "<group>"; };
+		38F2C7B91D49E6600095B3B3 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		38F2C7BA1D49E6600095B3B3 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		38F2C7BC1D4A3AC90095B3B3 /* DescriptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionModel.h; sourceTree = "<group>"; };
+		38F2C7BD1D4A3AC90095B3B3 /* DescriptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionModel.m; sourceTree = "<group>"; };
+		38F2C7BF1D4A3BFA0095B3B3 /* EnclosureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnclosureModel.h; sourceTree = "<group>"; };
+		38F2C7C01D4A3BFA0095B3B3 /* EnclosureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnclosureModel.m; sourceTree = "<group>"; };
+		38F2C7C21D4B24BE0095B3B3 /* GuidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidModel.h; sourceTree = "<group>"; };
+		38F2C7C31D4B24BE0095B3B3 /* GuidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidModel.m; sourceTree = "<group>"; };
+		38F2C7C51D4B26290095B3B3 /* LinkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkModel.h; sourceTree = "<group>"; };
+		38F2C7C61D4B26290095B3B3 /* LinkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkModel.m; sourceTree = "<group>"; };
+		38F2C7C81D4B265C0095B3B3 /* PubDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubDateModel.h; sourceTree = "<group>"; };
+		38F2C7C91D4B265C0095B3B3 /* PubDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubDateModel.m; sourceTree = "<group>"; };
+		38F2C7CB1D4B26A70095B3B3 /* SourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceModel.h; sourceTree = "<group>"; };
+		38F2C7CC1D4B26A70095B3B3 /* SourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceModel.m; sourceTree = "<group>"; };
+		38F2C7CE1D4B26EF0095B3B3 /* TitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleModel.h; sourceTree = "<group>"; };
+		38F2C7CF1D4B26EF0095B3B3 /* TitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleModel.m; sourceTree = "<group>"; };
 		7EAF13B8B21EBEDC0777D750 /* libPods-iOSrss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSrss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,12 +151,6 @@
 				3803DBEE1D44C03F0067106B /* AppDelegate.h */,
 				3803DBEF1D44C03F0067106B /* AppDelegate.m */,
 				3803DBF41D44C03F0067106B /* SecondViewController.h */,
-				38F2C7AD1D488C870095B3B3 /* XMLModel.m */,
-				38F2C7AC1D488C870095B3B3 /* XMLModel.h */,
-				38F2C7B01D48CEDD0095B3B3 /* RSSModel.h */,
-				38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */,
-				38F2C7B31D48CEFF0095B3B3 /* ChannelModel.h */,
-				38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */,
 				3803DBF51D44C03F0067106B /* SecondViewController.m */,
 				3803DBF71D44C03F0067106B /* Main.storyboard */,
 				3856EF661D4737F700CC490A /* FirstTableViewController.h */,
@@ -176,6 +194,28 @@
 		38F2C7AF1D48CE880095B3B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				38F2C7B61D49CDAF0095B3B3 /* XMLMod.h */,
+				38F2C7B71D49CDAF0095B3B3 /* XMLMod.m */,
+				38F2C7B01D48CEDD0095B3B3 /* RSSModel.h */,
+				38F2C7B11D48CEDD0095B3B3 /* RSSModel.m */,
+				38F2C7B31D48CEFF0095B3B3 /* ChannelModel.h */,
+				38F2C7B41D48CEFF0095B3B3 /* ChannelModel.m */,
+				38F2C7B91D49E6600095B3B3 /* ItemModel.h */,
+				38F2C7BA1D49E6600095B3B3 /* ItemModel.m */,
+				38F2C7BC1D4A3AC90095B3B3 /* DescriptionModel.h */,
+				38F2C7BD1D4A3AC90095B3B3 /* DescriptionModel.m */,
+				38F2C7BF1D4A3BFA0095B3B3 /* EnclosureModel.h */,
+				38F2C7C01D4A3BFA0095B3B3 /* EnclosureModel.m */,
+				38F2C7C21D4B24BE0095B3B3 /* GuidModel.h */,
+				38F2C7C31D4B24BE0095B3B3 /* GuidModel.m */,
+				38F2C7C51D4B26290095B3B3 /* LinkModel.h */,
+				38F2C7C61D4B26290095B3B3 /* LinkModel.m */,
+				38F2C7C81D4B265C0095B3B3 /* PubDateModel.h */,
+				38F2C7C91D4B265C0095B3B3 /* PubDateModel.m */,
+				38F2C7CB1D4B26A70095B3B3 /* SourceModel.h */,
+				38F2C7CC1D4B26A70095B3B3 /* SourceModel.m */,
+				38F2C7CE1D4B26EF0095B3B3 /* TitleModel.h */,
+				38F2C7CF1D4B26EF0095B3B3 /* TitleModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -381,13 +421,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2C7C41D4B24BE0095B3B3 /* GuidModel.m in Sources */,
+				38F2C7BE1D4A3AC90095B3B3 /* DescriptionModel.m in Sources */,
+				38F2C7C11D4A3BFA0095B3B3 /* EnclosureModel.m in Sources */,
+				38F2C7CD1D4B26A70095B3B3 /* SourceModel.m in Sources */,
+				38F2C7BB1D49E6600095B3B3 /* ItemModel.m in Sources */,
 				38F2C7B21D48CEDD0095B3B3 /* RSSModel.m in Sources */,
 				3803DBF61D44C03F0067106B /* SecondViewController.m in Sources */,
 				3803DBF01D44C03F0067106B /* AppDelegate.m in Sources */,
+				38F2C7CA1D4B265C0095B3B3 /* PubDateModel.m in Sources */,
+				38F2C7C71D4B26290095B3B3 /* LinkModel.m in Sources */,
+				38F2C7D01D4B26EF0095B3B3 /* TitleModel.m in Sources */,
 				38F2C7B51D48CEFF0095B3B3 /* ChannelModel.m in Sources */,
+				38F2C7B81D49CDAF0095B3B3 /* XMLMod.m in Sources */,
 				3856EF681D4737F700CC490A /* FirstTableViewController.m in Sources */,
 				3803DBED1D44C03F0067106B /* main.m in Sources */,
-				38F2C7AE1D488C870095B3B3 /* XMLModel.m in Sources */,
 				3856EF6B1D473E1400CC490A /* AppManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

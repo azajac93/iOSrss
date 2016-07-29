@@ -7,12 +7,12 @@
 //
 
 #import <JSONModel/JSONModel.h>
-#import "ChannelModel.h"
-#import "XMLModel.h"
+#import "XMLMod.h"
+@class ChannelModel;
 
 @interface RSSModel : JSONModel
 
-@property (strong, nonatomic) ChannelModel *channel;
+@property (nonatomic,strong) ChannelModel *channel;
 
 
 @end

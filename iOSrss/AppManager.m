@@ -10,7 +10,7 @@
 #import "AFNetworking.h"
 #import "XMLReader.h"
 #import "JSONModel.h"
-#import "XMLModel.h"
+#import "XMLMod.h"
 #import "JSONModelLib.h"
 
 
@@ -38,21 +38,22 @@
         if(errorJsonSerialization)
             NSLog(@"%@",errorJsonSerialization.description);
         
-       // NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-        
-        //NSLog(@"%@", jsonString);
-        
         NSDictionary *deserializedDictionary=[[NSDictionary alloc]init];
         deserializedDictionary = [self JSONdeserialization:jsonData];
-        NSError *__autoreleasing *errorInitBreakNews=nil;
 
+        XMLMod * xmlModel=[[XMLMod alloc] initWithDictionary:deserializedDictionary error:nil];
 
-        XMLModel * xmlModel=[[XMLModel alloc] initWithDictionary:deserializedDictionary error:errorInitBreakNews];
+        NSLog(@"adasd %@",[xmlModel.rss.channel.item[0].source.text]);
         
-        //  if(errorInitBreakNews)
-            //NSLog(@"%@",errorInitBreakNews.description);
-        NSLog(@"adasd");
-   
+        int i;
+        for (i = 0; i < [xmlModel.rss.channel.item count]; i++) {
+            id myArrayElement = [ xmlModel.rss.channel.item objectAtIndex:i];
+            NSLog(@"%@", myArrayElement);
+            
+            
+                }
+        //[xmlModel.rss.channel.item indexOfObject:@"link"];
+              
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
