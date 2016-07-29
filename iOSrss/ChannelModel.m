@@ -7,6 +7,7 @@
 //
 
 #import "ChannelModel.h"
+#import "ItemModel.h"
 
 @implementation ChannelModel
 

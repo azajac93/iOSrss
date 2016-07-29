@@ -8,6 +8,14 @@
 
 #import "ItemModel.h"
 #import "EnclosureModel.h"
+#import "SourceModel.h"
+#import "descriptionModel.h"
+#import "EnclosureModel.h"
+#import "GuidModel.h"
+#import "LinkModel.h"
+#import "PubDateModel.h"
+#import "SourceModel.h"
+#import "TitleModel.h"
 
 @implementation ItemModel
 

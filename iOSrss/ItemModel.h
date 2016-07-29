@@ -16,6 +16,7 @@
 @class TitleModel;
 
 
+
 @protocol ItemModel
 @end
 
@@ -27,7 +28,7 @@
 @property (nonatomic,strong) GuidModel *guid;
 @property (strong,nonatomic) LinkModel *link;
 @property(strong,nonatomic) PubDateModel *pubDate;
-@property(strong,nonatomic) SourceModel *source;
+@property SourceModel *source;
 @property (strong,nonatomic) TitleModel *title;
 
 

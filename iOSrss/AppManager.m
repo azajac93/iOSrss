@@ -43,7 +43,7 @@
 
         XMLMod * xmlModel=[[XMLMod alloc] initWithDictionary:deserializedDictionary error:nil];
 
-        NSLog(@"adasd %@",[xmlModel.rss.channel.item[0].source.text]);
+        NSLog(@"Source text: %@",xmlModel.rss.channel.item[0].source.text);
         
         int i;
         for (i = 0; i < [xmlModel.rss.channel.item count]; i++) {
@@ -53,7 +53,7 @@
             
                 }
         //[xmlModel.rss.channel.item indexOfObject:@"link"];
-              
+        
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
