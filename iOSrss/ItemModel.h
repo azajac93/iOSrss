@@ -12,6 +12,7 @@
 @class GuidModel;
 @class LinkModel;
 @class PubDateModel;
+#import "SourceModel.h"
 @class SourceModel;
 @class TitleModel;
 
@@ -28,7 +29,7 @@
 @property (nonatomic,strong) GuidModel *guid;
 @property (strong,nonatomic) LinkModel *link;
 @property(strong,nonatomic) PubDateModel *pubDate;
-@property SourceModel *source;
+@property (strong, nonatomic) SourceModel *source;
 @property (strong,nonatomic) TitleModel *title;
 
 

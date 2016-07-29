@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - JSONModel (1.1.2)
+  - MBProgressHUD (1.0.0)
+  - XMLDictionary (1.4)
+  - XMLReader (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - JSONModel (~> 1.1.2)
+  - MBProgressHUD (~> 1.0.0)
+  - XMLDictionary (~> 1.4)
+  - XMLReader
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+  XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
+
+PODFILE CHECKSUM: 54cbf32d31b50a543ed63de43dd0ebcc552c3b46
+
+COCOAPODS: 1.0.1
