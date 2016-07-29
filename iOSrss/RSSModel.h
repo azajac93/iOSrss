@@ -15,4 +15,5 @@
 @property (nonatomic,strong) ChannelModel *channel;
 
 
+
 @end

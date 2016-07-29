@@ -11,4 +11,6 @@
 @interface TitleModel : JSONModel
 @property (strong, nonatomic) NSString *text;
 
+
+
 @end

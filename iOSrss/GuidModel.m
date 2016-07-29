@@ -10,4 +10,10 @@
 
 @implementation GuidModel
 
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+
 @end

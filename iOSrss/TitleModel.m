@@ -10,4 +10,10 @@
 
 @implementation TitleModel
 
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+
 @end

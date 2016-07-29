@@ -43,15 +43,8 @@
 
         XMLMod * xmlModel=[[XMLMod alloc] initWithDictionary:deserializedDictionary error:nil];
 
-        NSLog(@"Source text: %@",xmlModel.rss.channel.item[0].source.text);
-        
-        int i;
-        for (i = 0; i < [xmlModel.rss.channel.item count]; i++) {
-            id myArrayElement = [ xmlModel.rss.channel.item objectAtIndex:i];
-            NSLog(@"%@", myArrayElement);
-            
-            
-                }
+      NSLog(@"Source text: %@",[[xmlModel.rss.channel.item valueForKey:@"source"] valueForKey:@"url"]);
+ 
         //[xmlModel.rss.channel.item indexOfObject:@"link"];
         
         

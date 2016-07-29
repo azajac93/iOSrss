@@ -10,9 +10,10 @@
 
 @interface EnclosureModel : JSONModel
 
-@property (nonatomic) NSInteger lenght;
+@property (nonatomic) NSString *lenght;
 @property (strong,nonatomic) NSString *text;
 @property (strong,nonatomic) NSString *type;
 @property (strong,nonatomic) NSString *url;
+
 
 @end

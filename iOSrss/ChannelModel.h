@@ -10,13 +10,19 @@
 #import "RSSModel.h"
 #import "XMLMod.h"
 @class ItemModel;
+@protocol ItemModel
+
+@end
 
 @interface ChannelModel : JSONModel
 
-//@property (nonatomic, assign) NSString<Optional>* link;
-//@property (nonatomic, readwrite) NSString<Optional>* description;
-//@property (nonatomic, assign) NSString<Optional>* docs;
-@property (strong, nonatomic) NSArray<ItemModel *> *item;
+//@property (nonatomic, assign) NSString* link;
+//@property (nonatomic, readwrite) NSString* description;
+//@property (nonatomic, assign) NSString* docs;
+@property (strong, nonatomic) NSArray<ItemModel>* item;
+
+
+
 
 
 @end

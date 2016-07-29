@@ -10,4 +10,10 @@
 
 @implementation SourceModel
 
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+
 @end

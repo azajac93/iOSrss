@@ -11,4 +11,6 @@
 @interface LinkModel : JSONModel
 @property (strong, nonatomic) NSString *text;
 
+
+
 @end

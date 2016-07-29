@@ -13,4 +13,6 @@
 @property BOOL isPermaLink;
 @property (strong, nonatomic) NSString *text;
 
+
+
 @end
